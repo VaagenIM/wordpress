@@ -22,7 +22,7 @@ sudo sh get-docker.sh
 ```shell
 git clone https://github.com/VaagenIM/wordpress/
 cd wordpress/docker
-export PORT=4800${UID:3:1}
+export PORT=4800${UID:3}
 docker-compose up -d
 echo Din nye WP-side: $(hostname -I | cut -d' ' -f1):$PORT
 ```
