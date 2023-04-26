@@ -17,8 +17,7 @@ apt-get install apache2 -y
 apt-get install php-gd -y
 
 # These ones we should already have, keeping them here for now though
-apt-get install php-mysql -y
-apt-get install php -y
+apt-get install php php-xml php-curl php-xmlrpc php-mysql -y
 apt-get install mariadb-server -y
 
 # Install WP-Cli
